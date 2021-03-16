@@ -11,7 +11,6 @@ if __name__ == "__main__":
         print(pyfiglet.figlet_format("Hangman"))
         display_word = ['_' for _ in range(len(word_chosen))]
         guessed = {}
-        print(word_chosen)
         while True:
             print(stages[lives])
             printed = " ".join(display_word)
